@@ -1,4 +1,5 @@
 # messWithTexas.sh yippie ki yay mothafuckas
+# suggest running this from your user homedir
 
 sudo mkdir messWithTexas
 
