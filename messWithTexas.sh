@@ -20,8 +20,8 @@ sudo apt-get install -y ~/vpn/protonVpn.deb
 sudo apt-get update
 sudo apt-get install -y protonvpn-cli
 ## authenticate with free credentials
-protonvpn-cli login messWithTexas
 /usr/bin/expect << AUTH
+spawn protonvpn-cli login messWithTexas
 expect "Enter your ProtonVPN password:"
 send "<3N75Zw!UyRd7@7z>\n"
 expect EOF
