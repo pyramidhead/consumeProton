@@ -25,6 +25,7 @@ spawn protonvpn-cli login messWithTexas
 expect "Enter your ProtonVPN password:"
 send "3N75Zw!UyRd7@7z\n"
 expect EOF
+protonvpn-cli c US-TX#6
 AUTH
 
 # generate addresses at https://coolgenerator.com/address-generator (is this necessary? the next step generates names and addresses)
