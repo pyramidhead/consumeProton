@@ -19,8 +19,11 @@ sudo apt-get update
 sudo apt-get install -y protonvpn-cli
 ## authenticate with free credentials
 protonvpn-cli login messWithTexas
+/usr/bin/expect AUTH
 expect "Enter your ProtonVPN password:"
-send "3N75Zw!UyRd7@7z"
+send "<3N75Zw!UyRd7@7z>\n"
+expect EOF
+AUTH
 
 # generate addresses at https://coolgenerator.com/address-generator (is this necessary? the next step generates names and addresses)
 
@@ -28,4 +31,4 @@ send "3N75Zw!UyRd7@7z"
 
 # generate emails from https://www.throwawaymail.com/en
 
-# http post to prolifewhistleblower.com (need a randomized interval between 5-30min here)
+# http post to prolifewhistleblower.com
