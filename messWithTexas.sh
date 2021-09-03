@@ -8,6 +8,8 @@ sudo mkdir messWithTexas
 sudo mkdir messWithTexas/vpn
 sudo apt-get install -y dpkg-dev
 sudo apt-get install -y apt-file
+sudo apt-get install -y expect
+sudo apt-get install -y send
 sudo apt-file update
 sudo apt-get update
 sudo wget -O ~/messWithTexas/vpn/protonVpn.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
