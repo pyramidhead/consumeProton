@@ -23,7 +23,7 @@ sudo apt-get install -y protonvpn-cli
 /usr/bin/expect << AUTH
 spawn protonvpn-cli login messWithTexas
 expect "Enter your ProtonVPN password:"
-send "<3N75Zw!UyRd7@7z>\n"
+send "3N75Zw!UyRd7@7z\n"
 expect EOF
 AUTH
 
