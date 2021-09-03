@@ -1,6 +1,3 @@
-# messWithTexas.sh yippie ki yay mothafuckas
-# suggest running this from your user homedir
-
 # enable free vpn to spoof tx ip
 ## install protonvpn cli
 sudo mkdir vpn
@@ -21,17 +18,8 @@ sudo apt-get update
 sudo apt-get install -y protonvpn-cli
 ## authenticate with free credentials
 /usr/bin/expect << AUTH
-spawn protonvpn-cli login messWithTexas
+spawn protonvpn-cli login <yourLoginHere>
 expect "Enter your ProtonVPN password:"
-send "3N75Zw!UyRd7@7z\n"
-send "protonvpn-cli c US-TX#6"
+send "<yourPasswordHere>"
 expect EOF
 AUTH
-
-# generate addresses at https://coolgenerator.com/address-generator (is this necessary? the next step generates names and addresses)
-
-# parse names from https://www.fakenamegenerator.com/gen-random-us-us.php
-
-# generate emails from https://www.throwawaymail.com/en
-
-# http post to prolifewhistleblower.com
