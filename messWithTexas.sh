@@ -9,7 +9,7 @@ sudo mkdir vpn
 sudo apt-get install -y dpkg-dev
 sudo apt-get install -y apt-file
 sudo apt-get install -y expect
-sudo apt-get install -y send
+sudo apt-get install mmh
 sudo apt-file update
 sudo apt-get update
 sudo wget -O ~/vpn/protonVpn.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
