@@ -19,10 +19,7 @@ sudo apt-get update
 sudo apt-get install -y protonvpn-cli
 ## authenticate with free credentials
 protonvpn-cli login messWithTexas 
-send 3N75Zw!UyRd7@7z
-## PHjJ28YupBTLf07s
-## hqqbZhSExfEEocSqXIWgGdShgzVvzA9U
-
+send "3N75Zw!UyRd7@7z"
 
 # generate addresses at https://coolgenerator.com/address-generator (is this necessary? the next step generates names and addresses)
 
