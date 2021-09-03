@@ -1,8 +1,6 @@
 # messWithTexas.sh yippie ki yay mothafuckas
 # suggest running this from your user homedir
 
-sudo mkdir messWithTexas
-
 # enable free vpn to spoof tx ip
 ## install protonvpn cli
 sudo mkdir vpn
