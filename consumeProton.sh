@@ -1,4 +1,4 @@
-# enable free vpn to spoof tx ip
+# enable free vpn
 ## install protonvpn cli
 sudo mkdir vpn
 sudo apt-get install -y dpkg-dev
