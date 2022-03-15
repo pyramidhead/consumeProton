@@ -9,8 +9,8 @@ sudo yum install -y dpkg
 # sudo apt-get install -y mailutils-mh
 # sudo apt-file update
 # sudo apt-get update
-wget -O protonVpn.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
-sudo chmod 755 ~/protonVpn.deb
+wget -O ~/git/consumeProton/protonVpn.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
+sudo chmod 755 ~/git/consumeProton/protonVpn.deb
 # sudo apt-file find ~/protonVpn.deb
 # sudo dpkg -i ~/protonVpn.deb
 # sudo apt-get install -y ~/protonVpn.deb
