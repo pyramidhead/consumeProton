@@ -1,6 +1,6 @@
 # enable free vpn
 ## install protonvpn cli
-sudo yum install dpkg
+sudo yum install -y dpkg
 # sudo apt-get install -y dpkg-dev
 # sudo apt-get install -y apt-file
 # sudo apt-get install -y expect
