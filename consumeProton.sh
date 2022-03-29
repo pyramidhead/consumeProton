@@ -11,8 +11,9 @@ sudo apt-get update
 sudo apt-get install -y protonvpn-cli
 ## authenticate with free credentials
 /usr/bin/expect << AUTH
-spawn protonvpn-cli login <yourLoginHere>
+protonvpn-cli login <yourLoginHere>
 expect "Enter your ProtonVPN password:"
 send "<yourPasswordHere>"
 expect EOF
 AUTH
+protonvpn-cli status
