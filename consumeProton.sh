@@ -17,3 +17,6 @@ send "<yourPasswordHere>"
 expect EOF
 AUTH
 protonvpn-cli status
+protonvpn-cli connect -r
+protonvpn-cli status
+curl ifconfig.me
