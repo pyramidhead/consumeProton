@@ -13,7 +13,7 @@ sudo chmod 755 ~/git/consumeProton/protonVpn.deb
 sudo apt-get install -y ~/git/consumeProton/protonVpn.deb
 sudo apt-file update
 sudo apt-get update
-sudo apt-get install protonvpn-cli
+sudo apt-get install -y protonvpn-cli
 ## authenticate with free credentials
 /usr/bin/expect << AUTH
 protonvpn-cli login <yourLoginHere>
