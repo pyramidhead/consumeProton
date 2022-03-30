@@ -8,8 +8,9 @@ sudo apt-get install -y nmh
 sudo apt-get install -y mailutils-mh
 sudo apt-file update
 sudo apt-get update
-wget ~/protonvpn-stable-release_1.0.1-1_all.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
-sudo apt-get install -y ~/protonvpn-stable-release_1.0.1-1_all.deb
+wget -O ~/git/consumeProton/protonVpn.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
+sudo chmod 755 ~/git/consumeProton/protonVpn.deb
+sudo apt-get install -y ~/git/consumeProton/protonvpn-stable-release_1.0.1-1_all.deb
 sudo apt-file update
 sudo apt-get update
 sudo apt-get install protonvpn-cli
