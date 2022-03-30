@@ -8,8 +8,11 @@ sudo apt-get install -y nmh
 sudo apt-get install -y mailutils-mh
 sudo apt-file update
 sudo apt-get update
-wget ~/protonvpn-cli.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
-sudo apt-get install -y ~/protonvpn-cli.deb
+wget ~/protonvpn-stable-release_1.0.1-1_all.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
+sudo apt-get install -y ~/protonvpn-stable-release_1.0.1-1_all.deb
+sudo apt-file update
+sudo apt-get update
+sudo apt-get install protonvpn-cli
 ## authenticate with free credentials
 /usr/bin/expect << AUTH
 protonvpn-cli login <yourLoginHere>
