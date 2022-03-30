@@ -10,7 +10,7 @@ sudo apt-file update
 sudo apt-get update
 wget -O ~/git/consumeProton/protonVpn.deb https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
 sudo chmod 755 ~/git/consumeProton/protonVpn.deb
-sudo apt-get install -y ~/git/consumeProton/protonvpn-stable-release_1.0.1-1_all.deb
+sudo apt-get install -y ~/git/consumeProton/protonVpn.deb
 sudo apt-file update
 sudo apt-get update
 sudo apt-get install protonvpn-cli
