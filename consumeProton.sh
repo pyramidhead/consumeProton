@@ -22,7 +22,7 @@ send "<yourPasswordHere>"
 expect EOF
 AUTH
 protonvpn-cli status
-protonvpn-cli connect --fastest --protocol tcp
+protonvpn-cli c --fastest --protocol tcp
 sleep 5
 protonvpn-cli status
 curl ifconfig.me
