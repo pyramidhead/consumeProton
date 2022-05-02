@@ -14,12 +14,17 @@ sudo apt-get install -y ~/git/consumeProton/protonVpn.deb
 sudo apt-file update
 sudo apt-get update
 sudo apt-get install -y protonvpn-cli
+sleep 15
 ## authenticate with free credentials
 /usr/bin/expect << AUTH
 protonvpn-cli login <yourLoginHere>
+sleep 15
 expect "Enter your ProtonVPN password:"
+sleep 15
 send "<yourPasswordHere>"
+sleep 15
 expect EOF
+sleep 15
 AUTH
 protonvpn-cli status
 protonvpn-cli c --fastest --protocol tcp
